@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['btnlogin'])){
     $username=$_POST['username'];
-    $password=$_POSTT['password'];
+    $password=$_POST['password'];
 
     if ($username=="admin"){
         if($password=="admin"){
