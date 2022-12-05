@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['btnlogin'])){
+if(isset($_POST['btn-login'])){
     $username=$_POST['username'];
     $password=$_POST['password'];
 
